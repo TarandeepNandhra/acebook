@@ -16,3 +16,6 @@ User.new(forename: "Bart",
 
 Post.new(content: "Wow awesome!",
          user_id: 1).save
+
+Like.new(user_id: 1, 
+         post_id: 1).save
