@@ -14,12 +14,6 @@ class PostsController < ApplicationController
     json_response(@posts, :created)
   end
 
-  def update
-  end
-
-  def delete
-  end
-
   private
 
   def post_params

@@ -1,4 +1,5 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
+require 'simplecov'
 require 'spec_helper'
 require 'database_cleaner'
 ENV['RAILS_ENV'] ||= 'test'
@@ -30,6 +31,13 @@ Shoulda::Matchers.configure do |config|
     with.test_framework :rspec
     with.library :rails
   end
+end
+
+SimpleCov.start 'rails' do
+  add_filter '/bin/'
+  add_filter '/db/'
+  add_filter '/spec/' # for rspec
+  add_filter '/test/' # for minitest
 end
 
 # Checks for pending migrations and applies them before tests are run.
