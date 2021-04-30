@@ -4,7 +4,7 @@
 
 | Endpoint        | Functionality            | Deployed         |
 | ----------------| -------------------------|------------------|
-| User_Controller |
+| Span <td colspan=3>User_Controller |
 | POST /users     | Create new user          |:heavy_check_mark:|
 | GET /users      | Returns all users        |:heavy_check_mark:|
 | GET /users/:id  | Return the user of :id   |:heavy_check_mark:|
