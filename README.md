@@ -13,6 +13,7 @@ We followed TDD principles when creating the routes and controllers in the API, 
 - Shoulda-matchers
 - Faker
 - Database_cleaner
+
 We achieved 99% coverage with our tests.
 
 ## Instructions
