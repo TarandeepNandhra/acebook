@@ -14,6 +14,20 @@ We followed TDD principles when creating the routes and controllers in the API, 
 - Faker
 - Database_cleaner
 
+## Instructions
+The API is hosted on Heroku, see the next section for the routes and how to interact with the API.
+If you would like to run the API locally, follow these instructions:
+- Clone the repository
+- Run the following commands in the root directory
+```bash
+bundle install
+npm i
+rails db:create db:migrate db:seed
+```
+- To check tests, run `rspec` in the root directory
+- To run the server, run `rails s` and the server will start at `http://localhost:3000/`
+- Check db/seeds.rb for data preloaded on the database.
+
 ## API routes
 
 | Endpoint        | Functionality            | Deployed         |
