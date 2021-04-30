@@ -18,7 +18,7 @@ We followed TDD principles when creating the routes and controllers in the API, 
 The API is hosted on Heroku, see the next section for the routes and how to interact with the API.
 If you would like to run the API locally, follow these instructions:
 - Clone the repository
-- Run the following commands in the root directory
+- Run the following commands in the root directory to setup and seed the database
 ```bash
 bundle install
 npm i
