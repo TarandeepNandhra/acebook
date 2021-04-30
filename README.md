@@ -14,7 +14,7 @@ We followed TDD principles when creating the routes and controllers in the API, 
 - Faker
 - Database_cleaner
 
-## API docs
+## API routes
 
 | Endpoint        | Functionality            | Deployed         |
 | ----------------| -------------------------|------------------|
