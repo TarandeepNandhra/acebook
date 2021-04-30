@@ -1,5 +1,19 @@
 # AceBook
 
+## Task
+
+For this project we worked in teams to produce a social media platform using rails and react-native.
+This repository contains the backend rails API, we created the frontend in react-native [here](https://github.com/Yates101/Insert-Team-Name-react-native).
+
+## Implementation
+
+We followed TDD principles when creating the routes and controllers in the API, using the following gems:
+- Rspec
+- Factory_bot_rails
+- Shoulda-matchers
+- Faker
+- Database_cleaner
+
 ## API docs
 
 | Endpoint        | Functionality            | Deployed         |
@@ -23,8 +37,10 @@
 | GET /likes/post_id/:id| Return all likes for post of :id   |:heavy_check_mark:|
 | DELETE /likes/:id  | Destroys like of  :id |:heavy_check_mark:|
 
-
 - The API is hosted at https://acebook--backend.herokuapp.com
+- To make an API request, append the endpoint to the link above
 
-## [Testing README](https://github.com/taran314/acebook-insert-team-name-here/blob/main/testing.md)
-## [API-setup README](https://github.com/taran314/acebook-insert-team-name-here/blob/main/api-setup.md)
+## Knowledge Sharing
+- We created guides to knowledge share within the team.
+- [Testing README](https://github.com/taran314/acebook-insert-team-name-here/blob/main/testing.md)
+- [API-setup README](https://github.com/taran314/acebook-insert-team-name-here/blob/main/api-setup.md)
