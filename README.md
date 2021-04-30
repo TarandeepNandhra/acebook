@@ -41,6 +41,6 @@ We followed TDD principles when creating the routes and controllers in the API, 
 - To make an API request, append the endpoint to the link above
 
 ## Knowledge Sharing
-- We created guides to knowledge share within the team.
+We created guides to knowledge share within the team:
 - [Testing README](https://github.com/taran314/acebook-insert-team-name-here/blob/main/testing.md)
 - [API-setup README](https://github.com/taran314/acebook-insert-team-name-here/blob/main/api-setup.md)
